@@ -1,0 +1,19 @@
+.classDaDiv{
+    background-color: aqua;
+    align-content: center;
+    text-decoration: brown;
+    text-align: center;
+}
+
+#image{
+    align-content: center;
+    align-self: auto;   
+    border-image: 10px;                
+}
+.classNew{
+    border: solid peru;
+}
+img{
+    align-self: auto;
+    align-items: center;
+}

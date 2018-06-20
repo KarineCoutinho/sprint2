@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--para fazer o CSS como arquivo externo MODO CORRETO!-->
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
 </head>
@@ -22,12 +23,15 @@
 
     <!-- block-->
     <p>Karine</p>
-    <div>Karine</div>
-    <hr>
+    <div class= "classDaDiv">Karine</div>
+    <hr >
     <!-- <img src= colocar o link da imagem ou nome da imagem, se ela tiver na pasta
          alt=descrição da imagem (util para acessibilidade - 'pra cego ver')-->
-    <img src="laboratoriaImg.png" alt="Logo laboratoria">
-
+    <div id = "image">
+        <p class= "classDaDiv classNew"> Aula CSS</p>
+         <img src="laboratoriaImg.png" alt="Logo laboratoria">
+    </div>
+    <!--para fazer o Style "css" direto no html-->
     <p style= "color:blue; border: 1px; background-color: hotpink; overflow: scroll; width: 100px;
     height: 50px;">Karine Fagundes Coutinho</p>
 </body>
