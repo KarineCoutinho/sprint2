@@ -1,0 +1,15 @@
+#block{
+    display: block;
+}
+.yellow{
+    background-color: #ffc400dc;
+    height: 150px;
+    margin: 2px;
+    width: 30%;
+}
+.black{
+    background-color: black;
+    height: 150px;
+    color: white;
+    width: 30%;
+}

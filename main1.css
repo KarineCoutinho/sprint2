@@ -1,0 +1,13 @@
+#block{
+    display: block;
+}
+.yellow{
+    background-color: #ffc400dc;
+    height: 100px;
+    margin: 2px;
+}
+.black{
+    background-color: black;
+    height: 100px;
+    color: white;
+}

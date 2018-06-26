@@ -1,0 +1,39 @@
+#field, .goal1, .goal2, .circle, #borderField{
+    background-color: forestgreen;
+}
+#field{
+    height: 300px;
+    width: 500px;
+    border: 3px solid white;
+}
+#borderField{
+    margin: 10px;
+    height: 274px;
+    width: 474px;
+    border: 3px solid white;
+}
+.circle, .goal1, .goal2{
+    height: 100px;
+    display: inline-block;
+    align-content: center;
+    position: relative;
+    /* overflow: hidden;
+    text-align: center; */
+}
+.goal1, .goal2{
+    width: 50px;
+    border: solid white;
+}
+.goal1{
+    border-width: 3px 3px 3px 0px;
+
+}
+.goal2{
+    border-width: 3px 0px 3px 3px;
+}
+.circle{
+    border: 3px solid white;
+    width: 100px;
+    border-radius: 100%;
+    margin: 74px 127px 74px 127px;
+}

@@ -1,0 +1,13 @@
+.yellow, .black{
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    display: inline;
+}
+.yellow{
+    background-color: #ffc400dc;
+}
+.black{
+    background-color: black;
+    color: white;
+}
